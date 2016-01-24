@@ -1,0 +1,19 @@
+{
+  "name": "mio",
+  "version": "0.0.1",
+  "description": "static page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/biuuu/mio.git"
+  },
+  "author": "biuuu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biuuu/mio/issues"
+  },
+  "homepage": "https://github.com/biuuu/mio#readme"
+}
