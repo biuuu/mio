@@ -3,7 +3,7 @@
   var link = document.getElementById('link');
   link.onclick = function(e) {
     var result = false;
-    if (/iqing/i.test(navigator.userAgent)) {
+    if (/iqing/i.test(document.cookie)) {
       result = true;
     } else {
       if (confirm('未检测到iqing，点确定将会跳转')) {
