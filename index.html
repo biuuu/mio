@@ -1,17 +1,1 @@
-<a id="link" href="iqing://game?body=%7B%22content_url%22%3A%22https%3A%2F%2Fwww.iqing.in%2Fyuki.html%22%2C%22url%22%3A%22https%3A%2F%2Fapi.iqing.in%2Fgame%2F2%2F%22%7D">链接</a>
-<div id="text"><div>
-<script>
-  var link = document.getElementById('link');
-  link.onclick = function(e) {
-    var result = false;
-    if (/iqing/i.test(document.cookie)) {
-      result = true;
-    } else {
-      if (confirm('未检测到iqing，点确定将会跳转')) {
-        location.href = 'http://www.iqing.in/yuki.html'
-      }
-    }
-    return result;
-  }
-  document.getElementById('text').innerHTML = document.cookie;
-</script>
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no"></head><body><form id=form><input id=ipt-search type=text placeholder=关键词><button type=submit>搜索</button></form><a href=http://www.myktv.com.cn:8081/ktvs/102/outer/jsp/index.jsp target=_blank class=link>链接</a><div id=result></div><script src="/static/app.87a836e5.js"></script></body></html>
